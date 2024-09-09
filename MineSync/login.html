@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - MineSync</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(255, 234, 197);
+            color: rgb(96, 63, 38);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            text-align: center;
+            width: 90%;
+            max-width: 400px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .login-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .login-header img {
+            height: 40px;
+        }
+
+        .login-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+
+        .login-buttons a {
+            padding: 10px 20px;
+            font-size: 14px;
+            text-decoration: none;
+            color: white;
+            border-radius: 20px;
+            flex-grow: 1;
+            text-align: center;
+        }
+
+        .login-buttons .sign-in {
+            background-color: rgb(96, 63, 38);
+            margin-right: 10px;
+        }
+
+        .login-buttons .join-now {
+            background-color: rgb(108, 78, 49);
+        }
+
+        .login-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: rgb(96, 63, 38);
+        }
+
+        .login-form button {
+            width: 100%;
+            padding: 15px;
+            font-size: 16px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            margin-bottom: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .login-form .google-btn {
+            background-color: rgb(255, 234, 197);
+            color: rgb(96, 63, 38);
+            border: 1px solid rgb(96, 63, 38);
+        }
+
+        .login-form .email-btn {
+            background-color: rgb(108, 78, 49);
+            color: white;
+        }
+
+        .login-form .google-btn:hover {
+            background-color: rgb(255, 219, 181);
+        }
+
+        .login-form .email-btn:hover {
+            background-color: rgb(96, 63, 38);
+        }
+
+        .login-footer {
+            font-size: 12px;
+            color: rgb(96, 63, 38);
+            margin-top: 20px;
+        }
+
+        .login-footer a {
+            color: rgb(96, 63, 38);
+            text-decoration: none;
+            border-bottom: 1px solid rgb(96, 63, 38);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="login-header">
+            <div class="website-logo">
+            </div>
+            <div class="login-buttons">
+                <a href="#" class="sign-in">Sign in</a>
+                <a href="#" class="join-now">Join now</a>
+            </div>
+        </div>
+        <h1 class="login-title">Welcome to your professional community</h1>
+        <div class="login-form">
+            <button class="google-btn">Continue with Google</button>
+            <button class="email-btn">Sign in with Email</button>
+        </div>
+        <div class="login-footer">
+            By clicking Continue to join or sign in, you agree to MineSync's <a href="#">User Agreement</a>, <a href="#">Privacy Policy</a>, and <a href="#">Cookie Policy</a>.
+        </div>
+    </div>
+</body>
+
+</html>
