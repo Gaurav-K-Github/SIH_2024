@@ -1,0 +1,177 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 234, 197);
+    color: rgb(96, 63, 38);
+}
+
+/* Header Styles */
+header {
+    background-color: rgb(255, 219, 181);
+    padding: 15px 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(96, 63, 38);
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: rgb(108, 78, 49);
+}
+
+/* Main Content Styles */
+.main-content {
+    text-align: center;
+    padding: 100px 20px 50px;
+    background-image: url('https://github.com/Gaurav-K-Github/SIH_2024/blob/main/MineSync/Icons/Screenshot%202024-09-08%20011102.png?raw=true');
+    background-size: cover;
+    background-position: center;
+    color: white; /* Adjust text color for better contrast */
+}
+
+.main-content img {
+    max-width: 250px;
+    height: auto;
+}
+
+.main-content h2 {
+    font-size: 28px;
+    color: white; /* Adjust text color for better contrast */
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+/* Icon Row Styles */
+.icon-row {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    background-color: rgb(255, 234, 197);
+}
+
+.icon-box {
+    width: 150px; /* Increased width */
+    height: 150px; /* Increased height */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px; /* Adjusted margin for spacing */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex-direction: column;
+}
+
+.icon-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.icon-box img {
+    width: 80px; /* Increased icon size */
+    height: auto;
+}
+
+.icon-box p {
+    margin-top: 10px;
+    font-size: 16px; /* Increased font size */
+    color: rgb(96, 63, 38);
+    text-align: center;
+    font-weight: 500;
+}
+
+/* Feature Section */
+.feature-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10%;
+    background-color: rgb(255, 219, 181);
+}
+
+.feature-section img {
+    max-width: 400px;
+    height: auto;
+}
+
+.feature-text {
+    max-width: 50%;
+    font-size: 18px;
+    color: rgb(96, 63, 38);
+    line-height: 1.6;
+}
+
+.feature-text h3 {
+    font-size: 24px;
+    color: rgb(108, 78, 49);
+    margin-bottom: 20px;
+}
+
+.feature-text .cta-buttons {
+    margin-top: 20px;
+}
+
+.cta-buttons .login-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(108, 78, 49);
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.cta-buttons .login-btn:hover {
+    background-color: rgb(96, 63, 38);
+}
+
+.cta-buttons .see-more-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(96, 63, 38);
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.cta-buttons .see-more-btn:hover {
+    background-color: rgb(108, 78, 49);
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(255, 219, 181);
+    color: rgb(96, 63, 38
